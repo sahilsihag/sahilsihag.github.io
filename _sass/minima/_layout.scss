@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 7px solid $grey-color-dark;
+  border-bottom: 2px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -106,7 +106,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 2px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 
@@ -115,8 +115,16 @@
   margin-bottom: $spacing-unit / 2;
 }
 
+// custom formatting for new header layout
+.new-addn {
+  @include relative-font-size(0.90);
+  text-align: center;
+  margin-bottom: -15px;
+}
+
 .contact-list,
 .social-media-list {
+  margin-bottom: 2px;
   list-style: none;
   margin-left: 0;
 }
