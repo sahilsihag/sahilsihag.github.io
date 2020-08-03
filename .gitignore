@@ -4,3 +4,4 @@ _site
 *.gem
 .jekyll-cache/
 .editorconfig
+drafts/
