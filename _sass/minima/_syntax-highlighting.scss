@@ -69,3 +69,29 @@
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+// Special block for "Illusion of Randomness" to show user input
+.highlight_input {
+  .highlighter-rouge & {
+    background: #f2f2f2;
+  }
+}
+
+code_input {
+  @include relative-font-size(0.9375);
+  background-color: #f2f2f2;
+  padding: 1px 5px;
+}
+
+// Special block for "Illusion of Randomness" to show server output
+.highlight_output {
+  .highlighter-rouge & {
+    background: #eafaf4;
+  }
+}
+
+code_output {
+  @include relative-font-size(0.9375);
+  background-color: #eafaf4;
+  padding: 1px 5px;
+}
