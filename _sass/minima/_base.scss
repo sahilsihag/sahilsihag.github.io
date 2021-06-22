@@ -73,9 +73,9 @@ figure > img {
 // lazy workaround (-12px) to bring text closer to figure/image. 
 figcaption {
   color: #505050;
-  font-size: $base-font-size * 0.82;
+  font-size: $base-font-size * 0.9;
   text-align: center;
-  margin-top: -14px;
+  margin-top: -5px;
   margin-bottom: 10px;
 }
 
